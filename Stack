@@ -1,0 +1,23 @@
+print("Welcome to Stack!!")
+
+country_ = []
+
+
+
+while True:
+
+    print("1)Push\n2)Pop\n3)Display\n4)Exit")
+    choice = int(input("Choose your number: "))
+
+    if choice == 1:
+        country = input("Add a country: ")
+        country_.append(country)
+
+    elif choice == 2:
+        country_.pop()
+
+    elif choice == 3:
+        print(country_)
+
+    else:
+        break
